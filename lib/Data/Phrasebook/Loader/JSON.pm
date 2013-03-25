@@ -71,8 +71,8 @@ dictionary support.
 
 sub load {
     my ($class, $file, @dict) = @_;
-    croak "No file given as argument!"      unless defined $file;
-    croak "Unable to read file [$file]!"    unless -r $file;
+    croak "No file given as argument!"          unless defined $file;
+    croak "Unable to read file [$file]!"        unless -r $file;
     my $json = read_file( $file );
     croak "No data in given JSON file [$file]"  unless $json;
     my $data = decode_json($json);
@@ -225,7 +225,7 @@ Source data format for a single unnamed dictionary is a JSON stream that has
 as its I<root node> an anonymous hash, like so:
 
   { 
-  { "first_key": "first_value", "second_key": "second_value" }
+    "first_key": "first_value", "second_key": "second_value"
   }
 
 In this case, specifying one or more named dictionaries will have no effect.
