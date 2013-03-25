@@ -88,7 +88,7 @@ information;
     + result of `perl -V'
     + output from 'make test' - ideally do 'make test TEST_VERBOSE=1 >& errs'
 
-Send those to bug-Data-Phrasebook@rt.cpan.org and I'll get back to you as
+Send those to bug-Data-Phrasebook-Loader-JSON@rt.cpan.org and I'll get back to you as
 soon as I'm able.
 
 If it worked, then become root and type:
@@ -96,17 +96,6 @@ If it worked, then become root and type:
     # make install
 
 Congratulations. You've just installed Data::Phrasebook::Loader::JSON.
-
-If you have a copy of cpantest installed, type:
-
-    % cpantest -g pass -nc -p `basename \`pwd\`` -auto
-
-Or:
-
-    % cpantest -g pass -nc -p Data-Phrasebook-Loader-JSON-0.01 -auto
-
-That will tell both me and other potential users that the module
-built correctly on your machine.
 
 
 cheers,
