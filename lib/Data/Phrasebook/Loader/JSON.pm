@@ -258,6 +258,14 @@ behaviour use the C<set_default> object method. Alternatively, just include a
 dictionary that is guaranteed to be selected for the default (e.g.
 C<0000default>); it need not contain any keys.
 
+=head1 ALTERNATIVES
+
+This module was written to use JSON::XS. If you prefer to use JSON::Syck, I 
+heartily recommend using L<Data::Phrasebook::Loader::JSON::Syck> by Stevan 
+Little. The only reason I didn't use his module is beacuse this was used in
+a project already using JSON::XS, and I didn't want to use two different
+JSON parsers.
+
 =head1 SEE ALSO
 
 L<Data::Phrasebook>,
