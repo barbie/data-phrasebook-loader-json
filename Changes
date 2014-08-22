@@ -1,4 +1,7 @@
-# Changes log for Data-Phrasebook-Loader-JSON
+Changes log for Data-Phrasebook-Loader-JSON
+===========================================
+
+        - fixed license fields in META.json to be lists.
 
 0.01    2013-03-24
         - First release.
