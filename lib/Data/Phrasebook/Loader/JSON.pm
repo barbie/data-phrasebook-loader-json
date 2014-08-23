@@ -1,12 +1,19 @@
 package Data::Phrasebook::Loader::JSON;
+
 use strict;
 use warnings FATAL => 'all';
+
+our $VERSION = '0.01';
+
+#--------------------------------------------------------------------------
+
 use base qw( Data::Phrasebook::Loader::Base Data::Phrasebook::Debug );
+
 use Carp qw( croak );
 use File::Slurp;
 use JSON::XS;
 
-our $VERSION = '0.01';
+#--------------------------------------------------------------------------
 
 =head1 NAME
 
