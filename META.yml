@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:                   Data-Phrasebook-Loader-JSON
-version:                0.01
+version:                0.02
 abstract:               Loader class for phrasebook implementations using JSON files
 author:
   - Barbie <barbie@cpan.org>
@@ -28,7 +28,7 @@ build_requires:
 provides:
   Data::Phrasebook::Loader::JSON:
     file: lib/Data/Phrasebook/Loader/JSON.pm
-    version: 0.01
+    version: 0.02
 
 no_index:
   directory:
